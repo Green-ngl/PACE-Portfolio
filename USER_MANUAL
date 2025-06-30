@@ -1,0 +1,159 @@
+Objective 
+• Innovate an existing interactive system and computer technology. 
+• Perform and apply  UCSD.  
+Materials  
+• Personal computer 
+• Any software for (Computer aided designs)or programming language  
+Background 
+Atakan(2006), UCSD is used in the design process. Reasons are evaluated why traditional-technology
+focused design processes why it may result in unusable systems-and the consequences of those 
+unusable or useless systems. This leads directly to a consideration of the different methodologies that 
+go to make up a user-centered system design process.  
+Procedure 
+a.) dentify a scope or agenda 
+b.) Format for the document is given below as guide for the designers in the making the output both the 
+document and design. 
+Chapter I. Introduction 
+Background of the Study 
+Many students still rely on scattered digital tools or manual tracking to manage academic tasks, which 
+often results in disorganization, missed deadlines, and academic stress. The proposed academic 
+productivity system, PACE (Personal Academic Companion & Evaluator), aims to streamline task 
+tracking, review, and pacing. Using a user-centered design approach, the system is developed to 
+improve study habits, reduce stress, and promote consistency.  
+Statement of the Problem - Students lack a centralized platform that accommodates task tracking, self-assessment, and 
+personalized pacing. - Fragmented tools make it difficult to build consistent study habits. - Many apps are either too complex or not adapted to academic needs. - Students experience study fatigue and mental overload due to poor pacing tools. - Current academic tools don’t support reflective self-check-ins or reminders adapted to user behavior. 
+Assumption of the Study 
+The proposed PACE system will: - Provide intuitive progress tracking with a weekly pacing timeline. - Allow quiz generation based on user notes. - Generate summarizations of notes to improve review. - Include ambient study modes for focus. - Offer real-time, adaptive pacing feedback. 
+Significance of the Study 
+1. Students: - Reduce stress and increase productivity. - Gain better control over study habits. 
+2. Educators: - Encourage healthy academic behavior. - Monitor general engagement patterns. 
+3. Institutions: - Reduce student dropouts due to academic burnout. - Improve digital academic support tools. 
+4. Developers: - Apply real-world UX principles in an educational context. - Develop scalable, accessible academic tools. 
+Chapter II. Research Design 
+User-Centered System Design Process 
+A. Task Analysis 
+Main Task: Academic Productivity System (PACE) 
+├── [1. ADD TASKS] 
+│   
+├── 1.1 Enter task name 
+│   
+│   
+│   
+├── 1.2 Assign deadline 
+├── 1.3 Categorize task 
+└── 1.4 Tag progress status 
+├── [2. REVIEW SUMMARIES] 
+│   
+├── 2.1 Upload notes 
+│   
+│   
+├── 2.2 Generate summaries 
+└── 2.3 Highlight key points 
+├── [3. TAKE CUSTOM QUIZZES] 
+│   
+├── 3.1 Select topic 
+│   
+│   
+├── 3.2 Generate questions 
+└── 3.3 Review score 
+└── [4. SET FOCUS MODES] 
+├── 4.1 Select ambient background 
+├── 4.2 Set timer 
+└── 4.3 Start focus session 
+B. Requirements Gathering 
+Methods Used: 
+1. Interview: Conducted with 10 students from different disciplines. 
+2. Survey: Distributed to 50 students regarding digital study habits. 
+3. Observation: Monitored student workflows and distractions during study sessions. 
+Requirements: - User: Easy navigation, minimal clutter, customizable notifications. - Functional: Task tracker, ambient modes, quiz generator, summary tools. - Data: Task metadata, study history, user preferences. - Environment: Mobile-first, low-spec compatible, offline support. - Usability: Majority of users should perform core tasks within 3 steps. 
+C. Storyboarding and Prototyping 
+Prototype Screens: - Task input screen - Timeline dashboard - Focus mode timer - Quiz generator UI - Summary review panel 
+User Manual Excerpt: 
+'To start a new study session: 
+1. Tap 'Focus Mode' on the dashboard. 
+2. Choose background sound (Lo-fi, Rain, Café). 
+3. Set duration and tap Start.'
+
+
+PACE Figma Link: 
+https://www.figma.com/proto/oMZp5gSoR5VXaSlG7dK7p2/Prototype?node-id=1
+2&t=W8Vxpz8TWOEK2OHh-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+
+
+
+Prototype Flow 
+The user begins at the splash screen and enters the home dashboard. From there, they can access key 
+modules:  - Task Manager - Manage academic workload visually. - Quiz Generator - Turn notes into test questions.  - Focus Mode - Launch a distraction-free timer.  - Avatar - Get feedback on pacing and encouragement. - Analytics - View trends and study history. 
+Rationale 
+Figma was selected for its real-time collaborative functionality, mobile-friendly layout support, and easy 
+link sharing for remote usability testing. While highly accessible, its dependence on stable internet and 
+small-button layouts on large screens pose minor limitations. Nonetheless, it allowed rapid iterations 
+based on student feedback. 
+Changes to the Requirements 
+While the system requirements remained constant, the usability criteria evolved:  - Refined gamification logic with a toggle feature.  - Removed strict calendar syncing to avoid overlap with LMS platforms. - Added XP tracking and pacing analytics due to strong user interest. 
+Initial Evaluation Plan:  
+Due to hybrid learning setups and the accessibility of online tools, the evaluation of the PACE prototype 
+will be conducted through peer-based usability testing with classmates. The process will be facilitated 
+both in person and via platforms such as Discord or Microsoft Teams, ensuring testers can interact with 
+the prototype while allowing the team to observe their usage in real time.  
+The evaluation is divided into three parts: Usability Specifications, Heuristics Evaluation, and Participant 
+Survey and Feedback.  
+Usability Specifications:  
+The prototype aims to meet the following usability metrics:  - Effectiveness: Can users complete tasks such as managing assignments, generating quizzes, and using 
+focus mode without external help? - Efficiency: How quickly can tasks be completed?  - Utility: Do the features support actual student needs (e.g., quiz prep, pacing)?  - Learnability: Can first-time users navigate without instructions?  - Memorability: Will users remember the steps when returning later?  
+Population: 
+6 college-level students will interact with the PACE prototype on their phones or laptops. They will 
+complete tasks based on the core functions observed in the Figma mockup, such as XP tracking, avatar 
+feedback, task handling, and quiz generation. 
+Prototype Tasks:  
+Tasks are grouped based on the PACE main features: - Main Dashboard: Launch and explore current progress, avatar status, and task pacing. - Task Manager: Create, edit, and complete academic tasks in the kanban view.  - Focus Mode: Start a timed session and complete it with a break.  - Quiz Generator: Upload notes and generate a quiz. - XP & Avatar: Observe avatar change or XP bar animation upon task completion. 
+Task Timing Standards: - Main Dashboard: <= 1 min - Highly Acceptable - Task Creation or Completion: <= 2 min - Highly Acceptable - Quiz Generation: <= 3 min - Highly Acceptable - Focus Mode: Navigation and setup <= 1 min  
+Roles: 
+Team members will alternate guiding participants and recording results:  - Jelyn: Tracks time and notes user confusion or smooth interactions - Miguel : Collects feedback after task completion 
+Heuristic Evaluation:  
+Evaluation of the PACE prototype utilized the 10 Usability Heuristics by Jakob Nielsen, adapted for an 
+academic productivity context. These heuristics guided design decisions and served as a basis for 
+structured feedback from student testers. 
+Visibility of System Status 
+PACE uses clear indicators such as a visual XP bar, task status columns (To-Do, In Progress, Done), and 
+countdown timers to keep users informed about their progress and current mode (e.g., Focus Mode). 
+Match Between System and Real World 
+The app uses familiar academic concepts like tasks, deadlines, focus sessions, and quiz prep. Visual 
+metaphors (kanban board, avatars, XP) are intuitive and reflect student life in hybrid and asynchronous 
+settings. 
+User Control and Freedom 
+Users are free to switch between modules at any time. Tasks can be added, edited, or deleted easily. 
+Focus Mode can be paused, reset, or exited, giving users autonomy during sessions. 
+Consistency and Standards 
+Interface elements such as buttons, icons, and labels follow a consistent pattern. Terminology remains 
+uniform throughout all features (e.g., “Add Task,” “Mark Complete,” “Take Quiz”). 
+Error Prevention 
+PACE prevents user errors by using confirmation pop-ups (e.g., before deleting a task), and graying out 
+actions that require prior inputs (e.g., no quiz generation without uploaded notes). 
+Recognition Rather Than Recall 
+All major features are labeled and visible on the Dashboard. The app avoids hidden menus and reduces 
+memory load by making frequently used features accessible in one tap. 
+Flexibility and Efficiency of Use 
+PACE supports both novice and experienced users. Features like drag-and-drop task movement and 
+visual XP boosts enhance efficiency without needing tutorials. 
+Aesthetic and Minimalist Design 
+The UI avoids clutter and keeps a student-friendly layout. Each screen contains only the essential 
+buttons and feedback, improving readability and reducing distractions. 
+Help Users Recognize, Diagnose, and Recover from Errors 
+Error messages use plain, constructive language (e.g., “Please upload notes before generating quiz”) and 
+guide users toward fixing problems instead of just stating them. 
+Help and Documentation 
+PACE includes onboarding hints and tooltips within the prototype. While most functions are self
+explanatory, in-app guidance helps ensure ease of use during first-time interaction.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Critique and Summary 
+Advantages: - Students adapted quickly with little instruction. - XP and Focus Mode were positively received. - Evaluation across devices revealed layout gaps. 
+Disadvantages: - Small sample size limited generalizability. - Internet interruptions affected some test cases. - Quiz generator was confusing without note upload. 
+What We’d Do Differently: - Test initial and revised versions separately. - Add backend saving for real input storage. - Broaden testing to SHS students too. 
+The PACE prototype proved intuitive, useful, and motivational. Next versions will include more 
+personalization and feedback variety based on real student input.
